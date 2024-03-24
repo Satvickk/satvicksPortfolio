@@ -17,7 +17,7 @@ export default function AboutMe() {
         <div className="flex flex-wrap gap-8 justify-center text-3xl text-center">
           <MaskContainer
             revealText={
-              <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold">
+              <p className="max-w-4xl mx-auto text-slate-800 text-center text-sm text-wrap sm:text-4xl font-bold">
                 I am a Kanpur based Developer with about a year of experience in
                 frontend technologies. I have worked as a freelancer and
                 currently working as developer and designer in Codeaspire
