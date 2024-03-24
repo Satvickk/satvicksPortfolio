@@ -38,7 +38,7 @@ export default function LoaderScreen() {
             "0px -1px 0px 0px #ffffff40 inset, 0px 1px 0px 0px #ffffff40 inset",
         }}
       >
-        Start
+        Load
       </button>
     </div>
   );

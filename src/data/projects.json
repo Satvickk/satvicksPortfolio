@@ -1,0 +1,44 @@
+[
+  {
+      "id": 1,
+      "title": "SmartSalonBot",
+      "body": "A salon manager web app built using React and styled with Tailwind CSS. Converted the Figma design into a web app.",
+      "category": "company",
+      "link": ""
+  },
+  {
+      "id": 2,
+      "title": "Prism SFA",
+      "body": "PrismSFA is a Sales Force Management App with over 1000+ active users. I integrated APIs, tested them, and also integrated the Google Maps Geolocation API (a third-party API).",
+      "category": "company",
+      "link": ""
+  },
+  {
+      "id": 3,
+      "title": "CodeAspire.com",
+      "body": "The official website of CodeAspire Consultancy. I created and enhanced custom UI components as per the requirements.",
+      "category": "company",
+      "link": ""
+  },
+  {
+      "id": 4,
+      "title": "Portfolio Website",
+      "body": "A portfolio website showcasing my projects and skills. Designed with a minimalist aesthetic and built using Next.js and the Aceternity UI library.",
+      "category": "personal",
+      "link": ""
+  },
+  {
+      "id": 5,
+      "title": "Blog Website",
+      "body": "A Backend as a Service (BaaS) website showcasing my projects and skills. Designed with a minimalist aesthetic and built using React, Tailwind CSS, along with Appwrite as a Backend Service.",
+      "category": "personal",
+      "link": ""
+  },
+  {
+      "id": 6,
+      "title": "UI Design for SmartSalonBot",
+      "body": "A UI/UX design project for a salon web app, focusing on intuitive navigation and visually appealing interfaces. Created using Figma.",
+      "category": "ui-designs",
+      "link": ""
+  }
+]

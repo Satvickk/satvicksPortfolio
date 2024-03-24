@@ -31,6 +31,7 @@ export default function FeaturedCourses() {
       </div>
       <div className="mt-10 mx-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+          
           {featuredCourse.map((course: Course) => (
             <div className="flex justify-center" key={course.id}>
               <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">

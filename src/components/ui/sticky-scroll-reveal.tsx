@@ -11,6 +11,7 @@ export const StickyScroll = ({
   content: {
     title: string;
     description: string;
+    time : string;
     content?: React.ReactNode | any;
   }[];
   contentClassName?: string;
@@ -55,7 +56,7 @@ export const StickyScroll = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10"
+      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10 hide-scrollbar"
       ref={ref}
     >
       <div className="div relative flex items-start px-4">
@@ -80,7 +81,18 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-slate-300 max-w-sm mt-10"
+                className="text-kg text-slate-300 max-w-sm mt-2"
+              >
+                {item.time}
+              </motion.p>
+              <motion.p
+                initial={{
+                  opacity: 0,
+                }}
+                animate={{
+                  opacity: activeCard === index ? 1 : 0.3,
+                }}
+                className="text-kg text-slate-300 max-w-sm mt-6"
               >
                 {item.description}
               </motion.p>
