@@ -5,12 +5,12 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
 
 export default function contact() {
   return (
-    <footer className="bg-black text-gray-400 py-12 h-screen w-full flex flex-center">
-      <div className="max-w-6xl mx-auto my-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
+    <footer className="bg-black text-gray-400 py-12 h-screen w-full flex flex-center z-50">
+      <div className="max-w-6xl mx-auto mt-32 sm:mt-0 my-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About me</h2>
           <p className="mb-4">
@@ -24,28 +24,25 @@ export default function contact() {
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul className="flex flex-col space-y-4">
             <li>
-              <a
-                href="/"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Home
-              </a>
+              <Link href={"/"}>
+                <span className="hover:text-white transition-colors duration-300">
+                  Home
+                </span>
+              </Link>
             </li>
             <li>
-              <a
-                href="/projects"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Projects
-              </a>
+              <Link href={"/projects"}>
+                <span className="hover:text-white transition-colors duration-300">
+                  Projects
+                </span>
+              </Link>
             </li>
             <li>
-              <a
-                href="/contact"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Contact
-              </a>
+              <Link href={"/contact"}>
+                <span className="hover:text-white transition-colors duration-300">
+                  Contact
+                </span>
+              </Link>
             </li>
           </ul>
         </div>
@@ -76,13 +73,12 @@ export default function contact() {
           <h2 className="text-white text-lg font-semibold mb-4">Contact me</h2>
           <div className="flex flex-col space-y-4">
             <p>Kanpur, Uttar Pradesh</p>
-            <p>India 208010</p>
+            <p>India - 208008</p>
             <p><FaMailBulk /> satvickpathak@gmail.com</p>
-            <p><FaWhatsapp /> +91 8318505071</p>
           </div>
         </div>
       </div>
-      <BackgroundBeams />
+      {/* <BackgroundBeams /> */}
     </footer>
   );
 }
