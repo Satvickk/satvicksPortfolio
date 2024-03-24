@@ -37,9 +37,8 @@ export default function ProjectsNavbar() {
     <div className="sm:h-auto h-[60vh] md:h-[20vh] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0 hide-scrollbar">
       <div className="flex justify-center items-center flex-wrap">
         {btnArray.map((item) => (
-          <Link href={item.src}>
+          <Link href={item.src} key={item.id}>
           <button
-            key={item.id}
             className="px-8 py-2 border border-black bg-transparent m-4 sm:m-0 text-black  dark:border-white relative group transition duration-200"
             >
             <div className="absolute -bottom-2 -right-2 bg-yellow-300 h-full w-full -z-9 group-hover:bottom-0 group-hover:right-0 transition-all duration-200" />

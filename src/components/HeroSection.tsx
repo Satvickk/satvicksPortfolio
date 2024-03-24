@@ -13,7 +13,7 @@ export default function HeroSection() {
           Hi, I m Satvick Pathak
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-        I am a Frontend Developer skilled in crafting captivating digital experiences. With expertise in Javascript and React technologies, I specialize in creating responsive and intuitive user interfaces. Let's build something extraordinary together.
+        I am a Frontend Developer skilled in crafting captivating digital experiences. With expertise in Javascript and React technologies, I specialize in creating responsive and intuitive user interfaces. Lets build something extraordinary together.
         </p>
         <div className="mt-4 gap-6 flex justify-center">
           {/* <Link href={"/"}>

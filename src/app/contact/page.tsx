@@ -17,7 +17,7 @@ export default function contact() {
             I am a Frontend Developer skilled in crafting captivating digital
             experiences. With expertise in Javascript and React technologies, I
             specialize in creating responsive and intuitive user interfaces.
-            Let's build something extraordinary together.
+            Lets build something extraordinary together.
           </p>
         </div>
         <div>

@@ -9,7 +9,7 @@ function Instructors() {
     <div className="relative h-[40rem] overflow-hidden flex items-center justify-center">
       <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
         <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">
-          Have an Idea ? Let's connect
+          Have an Idea ? Lets connect
         </h2>
         <p className="text-base md:text-lg text-white text-center mb-4">
           Learn the best ways possible to bring your idea to life
