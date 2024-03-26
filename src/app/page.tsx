@@ -1,4 +1,3 @@
-import FeaturedCourses from "@/components/FeaturedCourses";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructors from "@/components/ConnectWithMe";
@@ -14,7 +13,6 @@ export default function Home() {
       <TechStack />
       <AboutMe />
       <MyEducation />
-      {/* <FeaturedCourses /> */}
       <TestimonialCards />
       <Instructors />
       <Footer />
