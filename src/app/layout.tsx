@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import LoaderScreen from "@/components/Loader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,8 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
-          <div className="relative w-full flex items-center justify-center hide-scrollbar">
-            {/* <LoaderScreen /> */}
+          <div className="relative w-full flex items-center justify-center hide-scrollbar z-50">
             <Navbar />
           </div>
           {children}
