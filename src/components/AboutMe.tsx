@@ -17,17 +17,22 @@ export default function AboutMe() {
         <div className="flex flex-wrap gap-8 justify-center text-3xl text-center">
           <MaskContainer
             revealText={
-              <p className="max-w-4xl mx-auto text-slate-800 text-center text-sm text-wrap sm:text-4xl font-bold">
-                I am a Kanpur based Developer with about a year of experience in
-                frontend technologies. I have worked as a freelancer and
-                currently working as developer and designer in Codeaspire
-                Consulting Services. With strong foundations in Javascript I
-                have strong understanding of API integration and its Testing.
+              <p className="max-w-4xl mx-auto sm:text-slate-800 text-center text-2xl px-3 sm:px-0 text-slate-400 text-wrap sm:text-4xl font-bold">
+                I am a Developer based in Kanpur, with approximately one year of
+                experience in frontend technologies. My professional journey
+                includes freelancing projects, and I am currently employed as a
+                developer and designer at Codeaspire Consulting Services. With a
+                solid background in JavaScript, I possess a deep understanding
+                of API integration and its testing methodologies.
               </p>
             }
             className="h-[40rem] w-full dark:bg-transparent border rounded-md"
           >
-            Look all I am saying is that I am good with <span className="text-red-500">Javascript</span> I know how to <span className="text-red-500">Integrate APIs</span> and I have a knack for crafting stunning <span className="text-red-500">UI designs</span>.
+            Look all I am saying is that I am good with{" "}
+            <span className="text-red-500">Javascript</span> I know how to{" "}
+            <span className="text-red-500">Integrate APIs</span> and I have a
+            knack for crafting stunning{" "}
+            <span className="text-red-500">UI designs</span>.
           </MaskContainer>
         </div>
       </div>

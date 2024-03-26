@@ -15,7 +15,7 @@ export default function TechStack() {
         <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
           My Tech Stack
         </h2>
-        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+        <p className="mt-2 text-3xl mx-3 sm:mx-0 leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
           Below are the libraries and tools with which I am proficient
         </p>
       </div>

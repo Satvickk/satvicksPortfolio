@@ -9,8 +9,8 @@ import Link from "next/link";
 
 export default function contact() {
   return (
-    <footer className="bg-black text-gray-400 py-12 h-screen w-full flex flex-center z-50">
-      <div className="max-w-6xl mx-auto mt-32 sm:mt-0 my-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
+    <footer className=" text-gray-400 py-12 h-screen w-full flex flex-center z-50">
+      <div className="max-w-6xl mx-auto mt-32 sm:mt-0 my-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6 sm:px-6 lg:px-8 py-3">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About me</h2>
           <p className="mb-4">
@@ -51,6 +51,7 @@ export default function contact() {
           <div className="flex flex-col space-y-4">
             <a
               href="https://www.linkedin.com/in/satvick-pathak-384956204"
+              target="_blank"
               className="hover:text-white transition-colors duration-300 flex gap-3"
             >
               <FaLinkedin />LinkedIn
@@ -58,12 +59,14 @@ export default function contact() {
             <a
               href="https://www.instagram.com/ig_satvick"
               className="hover:text-white transition-colors duration-300 flex gap-3"
+              target="_blank"
             >
               <FaInstagram />Instagram
             </a>
             <a
               href="https://github.com/Satvickk"
               className="hover:text-white transition-colors duration-300 flex gap-3"
+              target="_blank"
             >
               <FaGithub />Github
             </a>
