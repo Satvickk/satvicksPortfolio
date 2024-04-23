@@ -13,13 +13,7 @@ export default function MyEducation() {
       title : "Class XII (Computer Science)",
       description : "Kendriya Vidyalaya No.2 AFS Chakeri, Kanpur",
       time : "2019 - 2020",
-    },
-    {
-      title : "Class X",
-      description : "Kendriya Vidyalaya No.2 AFS Chakeri, Kanpur",
-      time : "2017 - 2018",
-    },
-
+    }
   ]
 
 
